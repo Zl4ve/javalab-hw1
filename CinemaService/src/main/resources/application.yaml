@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cinema_db
+    username: postgres
+    password:
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+
+app:
+  api:
+    authentication:
+      key: 123
+
+cinemas:
+  page:
+    size: 5
+
+server:
+  port: 8081

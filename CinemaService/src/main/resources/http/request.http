@@ -1,0 +1,1 @@
+GET localhost:8081/api/cinemas?city=Kazan&api-key=123&page=1

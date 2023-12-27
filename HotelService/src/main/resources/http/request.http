@@ -1,0 +1,1 @@
+GET localhost:8082/api/hotels?city=Kazan&api-key=123&page=1
